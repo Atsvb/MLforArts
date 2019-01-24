@@ -4,3 +4,5 @@ We take a wav file of a given bmp, we split it into beats (training beats, let's
 (using https://github.com/tyiannak/pyAudioAnalysis by Theodoros Giannakopoulos) for each beat. 
 We use k-means to cluster the beats according to these features. We use this clustering to classify the beats from other wav files and we generate a sequence of beats related 
 to this new file but played by the training beats.
+
+This is a work in progress. Next I will use LSTM to generate the sequences from the training beats.
